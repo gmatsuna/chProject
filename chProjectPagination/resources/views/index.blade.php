@@ -19,6 +19,9 @@
     <h1>chProject Start</h1>
     <button class="btn btn-jg btn-outline-orange">Bootstrap test</button>
     <div class="flex-center position-ref full-height">
+            <a class="navbar-brand" href="{{ url('/') }}">
+                {{ config('app.name', 'Laravel') }}
+            </a>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
