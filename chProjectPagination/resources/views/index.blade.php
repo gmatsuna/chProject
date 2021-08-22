@@ -16,8 +16,8 @@
     </style>
 </head>
 <body>
-    <h1>Index page</h1>
-    <button class="btn btn-jg btn-outline-orange">chProject Start</button>
+    <h1>chProject Start</h1>
+    <button class="btn btn-jg btn-outline-orange">Bootstrap test</button>
     <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
